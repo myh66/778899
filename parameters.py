@@ -35,7 +35,7 @@ SEGMENT_TIME = None
 
 # Bind address for the web server
 # 0.0.0.0 for remote access from all host
-WEBSERVER_HOST = "127.0.0.1"
+WEBSERVER_HOST = "0.0.0.0"
 WEBSERVER_PORT = 5000
 
 # Password for the web server
