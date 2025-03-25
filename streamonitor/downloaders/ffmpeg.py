@@ -27,6 +27,8 @@ def getVideoFfmpeg(self, url, filename):
         '-i', url,
         '-c:a', 'copy',
         '-c:v', 'copy',
+        '-fs', '2G', # Addition inserted here 更改文件大小
+        filename
     ])
 
     if SEGMENT_TIME is not None:
